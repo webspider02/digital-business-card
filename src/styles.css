@@ -5,6 +5,7 @@
     --header-text-color: #f1faee;
     --frontend-text-color: #e5e5e5;
     --text-color: #7a7a7a;
+    --linkedin-color: #0a66c2;
 }
 
 * {
@@ -26,11 +27,11 @@ body {
 body > div#root {
     background-color: var(--bg-card-color);
     text-align: center;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 body > div#root > section {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 body > div#root > section > h1,
@@ -44,12 +45,59 @@ body > div#root > section > h1 {
     margin-left: 50px; /* todo list */
 }
 
+body > div#root > section.info > h2 {
+    margin-top: 15px;
+}
+
 body > div#root > section > h3 {
     color: var(--frontend-text-color);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 body > div#root > section.info > div.image > img {
     width: 300px;
     height: 100%;
+}
+
+body > div#root > section.info > button {
+    width: 120px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #f1faee; */
+    color: var(--bg-color);
+}
+
+body > div#root > section.info > button:hover {
+    cursor: pointer;
+}
+
+body > div#root > section.info > button.email-button {
+    margin-right: 15px;
+    background-color: var(--header-text-color);
+    color: var(--bg-footer-color);
+}
+
+body > div#root > section.info > button.linkedin-button {
+    background-color: var(--linkedin-color);
+    color: var(--header-text-color);
+}
+
+body > div#root > section.info > button > svg {
+    margin-right: 5px;
+}
+
+body > div#root > section > p {
+    color: var(--text-color);
+}
+
+body > div#root > footer {
+    background-color: var(--bg-footer-color);
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+body > div#root > footer > svg {
+    margin-right: 15px;
 }
