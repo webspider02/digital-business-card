@@ -8,7 +8,7 @@ export default function Info() {
             </div>
 
             <h2>George Zabakikas</h2>
-            <h3>Fullstack Developer</h3>
+            <h3>Frontend Developer</h3>
 
             <button>Email</button>
             <button>LinkedIn</button> 
