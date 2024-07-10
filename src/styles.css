@@ -61,6 +61,7 @@ body > div#root > section.info > div.image > img {
     width: 300px;
     height: 100%;
     max-height: 400px;
+    object-fit: cover;
 }
 
 body > div#root > section.info > button {
