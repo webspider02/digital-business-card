@@ -2,7 +2,9 @@ export default function Interests() {
     return (
         <section>
             <h1>Interests</h1>
-            <p>This is the interests page</p>
+            <pre>
+            I enjoy programming, web development, chess, basketball, and reading about Ancient Greece.
+            </pre>
         </section>
     );
 }
