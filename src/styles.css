@@ -28,7 +28,8 @@ body > div#root {
     text-align: center;
     max-width: 300px;
     max-height: 90vh;
-    overflow-y: auto;
+    overflow-y: hidden;
+    border-radius: 10px;
 }
 
 body > div#root > section {
@@ -59,7 +60,7 @@ body > div#root > section > h3 {
 body > div#root > section.info > div.image > img {
     width: 300px;
     height: 100%;
-    max-height: 300px;
+    max-height: 400px;
 }
 
 body > div#root > section.info > button {
